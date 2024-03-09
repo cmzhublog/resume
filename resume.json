@@ -1,0 +1,220 @@
+{
+  "name": "朱聪明",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Your Profession",
+    "brief": "- 精通K8s 的搭建和部署， 熟悉各个组件之间的关系， 熟练处理各组件之间的问题； \n- 熟悉 BeegFS 的存储架构，能做到独立部署，独立维护；\n- 熟悉监控组件 Prometheus， 数据库中间件 Postgres，Redis ，和消息队列 Rabbitmq ；能熟练完成各组件搭建和部署；\n- 熟练使用各运维工具：Docker、Containerd、Harbor、 Gitlab、Skopeo等 \n- 吃苦耐劳，喜欢使用空余时间学习， 善于沟通， 喜欢研究新事物 \n- 个人博客： https://cmzhu.cn",
+    "image": ""
+  },
+  "contact": {
+    "website": "https://cmzhu.cn",
+    "phone": "15680663726",
+    "email": "1304955584@qq.com",
+    "other": ["成都师范学院", "本科"]
+  },
+  "location": {
+    "address": "双流区棠湖东路二段",
+    "city": "成都市",
+    "region": "双流区棠湖东路二段",
+    "code": "000000",
+    "country": "CN"
+  },
+  "social": [
+    {
+      "label": "",
+      "network": "GitHub",
+      "user": "cmzhublog",
+      "url": "https://github.com/cmzhublog"
+    }
+  ],
+  "employment": {
+    "summary": "Optional overall employment summary. Not used in most themes.",
+    "history": [
+      {
+        "employer": "成都宽邦科技",
+        "url": "https://bigquant.com",
+        "position": "四川省成都市武侯区",
+        "summary": "本人在成都宽邦科技担任运维工程师，主要工作内容分为两块， 其一是维护公司C端生产环境，包含监控集群、Kubernetes集群、日志系统、存储集群、本地开发测试集群、CI/CD和内部基础运维； 其二为维护公司B端项目，包含客户Poc 部署、 客户生产环境维护支持和客户日常问题处理； 在日常工作中主要收获最多的技术知识和提升许多问题处理的能力。",
+        "start": "2022-03",
+        "keywords": [
+          "PaaS",
+          "Kubernetes",
+          "Prometheus && VictoraMetrics",
+          "BeegFs",
+          "日志系统"
+        ],
+        "highlights": [
+          "负责宽邦 PaaS 平台维护；主要维护 Kubernetes 的平台，底层 BFS 存储，业务 SaaS 平台， 监控告警等；主要包含 PaaS 服务运行异常时恢复业务，解决运行中问题，比如 BFS 存储异常问题。",
+          "负责 SaaS 业务的维护和问题处理，主要解决突发的网站访问异常，网站服务异常等问题；包含 Nginx，Postgres，Rabbitmq， Redis 等中间件问题；也包含内部测开环境维护。",
+          "负责B 端项目部署和维护，包含 Ansible 自动化发布，K8s 集群部署， 以及客户 POC 生产环境部署等。目前已为5个大型客户提供运维服务，包含但不仅限于 K8s 平台使用问题，存储异常问题，网络异常问题， Nginx 异常问题， 以及部分 Gitlab 问题的处理和提供技术支持；",
+          "负责公司对C端客户的生产环境维护，主要包含维护生产环境的阿里云服务器， 对阿里云续费费用和使用率进行监控告警自动化， 维护平台监控架构，包含 Prometheus, Prometheus-exportor,VictoraMetrics，AlertManager 等监控组件； 使用过多种exportor 来采集指标， 例如： node-exportor， cAdvisor， nginx-exportor； 同时使用 grafana 来展示图标；",
+          "负责内部运维，主要维护公司域控， DNS， Harbor， Gitlab ，以及内部两套测试环境；",
+          "脚本开发工作， 使用 Shell 脚本完成自动化工作， 使用 Python 脚本编写自定义的监控和告警指标， 使用 JinJa ，Yaml ，Ansible 实现生产环境自动化发布；",
+          "完成公司监控系统搭建， 监控K8S 容器运行状况，节点状况，容器运行状态监控； 以及完成重要组件异常告警例如： 节点告警， 节点容量告警， 阿里云账户余额显示和告警等",
+          "完成公司内部 Jumpserver 堡垒机的使用推进和搭建， 目前生产核心业务服务器全部接入 Jumpserver ，同时各类型服务器超过三十台服务器接入 Jumpserver",
+          "针对B端客户，对12 个大型客户提供平台部署和技术支持； 针对2个客户的信创需求提供技术支持， 主导一个客户项目完成信创改造；",
+          "完成公司业务网关 Nginx 切换，实现使用 Openresty 作为网关使用， 同时规范开发使用网关配置"
+        ]
+      },
+      {
+        "employer": "多益网络有限公司",
+        "url": "",
+        "position": "广州市黄埔区",
+        "summary": "在多益网络担任系统运维工程师， 主要公司负责IaaS 层相关维护工作， 工作内容包含服务器交付、CMDB平台维护、虚拟机维护和硬件运维工作， 日常工作中主要收获较多的服务器基础知识包含Vmware 、磁盘阵列、网络基础知识、 idrac 知识",
+        "start": "2020.06",
+        "end": "2021.12",
+        "keywords": [
+          "IaaS",
+          "PXE",
+          "Vmware",
+          "CMDB",
+          "服务器硬件运维",
+          "阿里云运维"
+        ],
+        "highlights": [
+          "负责服务器交付工作，负责对以下三类机型的装机交付，包括实体机交付，Vmware 虚拟机交付，Openstack（KVM） 虚拟机交付；对以上三类实例进行标准化的配置，向业务提供安全可用的实例，维护体量达到上万台。",
+          "参与公司自动化交付的建设，搭建 PXE， 裸机管控平台(实体机)等基础设置服务，维护和迭代项目。",
+          "Vmware 系统维护，主要包含 Esxi 维护，包括 Vsphere Client， Esxi， Vsan 等 Vmware 产品的维护，并对对应的日常操作提供自动化脚本，主要使用 vim-cmd/esxcli。",
+          "参与公司硬件运维一线工作，包含服务器上架规划，磁盘等故障处理；较为熟悉磁盘阵列，系统 bios 配置等底层硬件维护。",
+          "参与公司 PXE 项目和裸机管控平台项目的维护和建设，实现自动化交付要求，达到快速交付目的。",
+          "维护少量云服务器，包含 阿里云 腾讯云 AWS 等云资源，通过 shell 提供自动初始化脚本，使得云厂商服务器与自建服务器系统保持一致。",
+          "负责服务器常见故障处理。"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "裸机管控平台",
+      "category": "FOSS",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "项目维护人",
+      "summary": "主要是管理和维护公司所有的实体机资源，主要分为两部分；其一是向 CMDB 提供实体机的检测数据，主要包含实体机硬盘状态，硬盘数量，阵列状态，阵列数量，内存状态，内存数量等硬件信息，实现对实体机的状态，硬盘更换等进行控制；其二是通过 RACADM 和 redfish 等修改计算机上的一系列配置，促使 PXE 能完美实现自动装机；同时也提供各种定制化的需求；我在项目中主要负责重构功能和维护现有功能，主要包含新增服务器特殊阵列配置功能，新增控制卡管理功能(获取 idrac 日志)，以及重构服务器硬件信息采集功能(shell 脚本全面整改为 python 代码)，以及服务器过保信息获取功能；个人理解：此项目可涉及较多的主要功能是对实体机的 idrac 的各项功能进行统一的管理，降低管理成本；同时可限制认为登陆 idrac 对服务器进行操作，提高服务器运行时的安全性。",
+      "description": "",
+      "highlights": [
+        "实现公司五千台服务器全部接入CMDB平台",
+        "完成五千台实体机服务器自动创建阵列",
+        "完成IT 部门IaaS设备服务器工作标准使用文档和培训"
+      ],
+      "keywords": [
+        "RACADM",
+        "redfish",
+        "CMDB",
+        "Django"
+      ]
+    },
+    {
+      "title": "PXE 自动装机",
+      "category": "FOSS",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "负责人",
+      "summary": "项目主要通过 PXE+DHCP+TFTP+HTTP+Preseed 等技术实现实体机自动装机交付，减少公司大量实体机需要重装操作系统时所耗费的人力成本和加快系统交付的效率。我在项目中主要负责维护和调优，包含新增 Ubuntu18系统的自动化安装功能，应对系统发展合并和整改现有自动化装机维护脚本，使实体机系统能够满足无人值守(交付自动化)的要求。项目个人理解:此项目能够加快实体机的交付进程，但有较大的局限性；其一，各个机房均部署有单点的 PXE 服务器，没有进行脚本统一管理，功能更新和维护会耗费很大成本。其二：扩展不便，在针对有新的系统需求时，不能快速对新系统提供支持；为此可研究目前较新的技术(clonezilla),可以解决用来解决该问题，我理解的该技术是通过第三方系统，将需要重装的系统盘通过 smb，ssh 等方式，将硬盘所有分区内容保保存，后续使用时全部拷贝到新机器。",
+      "description": "",
+      "highlights": [
+        "完成五千台服务器自动实现Debian7 Debian8 Debian9 操作系统统一安装"
+      ],
+      "keywords": [
+        "PXE",
+        "DHCP"
+      ]
+    }
+  ],
+  "education": {
+    "summary": "学士学位",
+    "level": "学士",
+    "degree": "工科学士",
+    "history": [
+      {
+        "institution": "成都师范学院",
+        "title": "工科学士",
+        "url": "http://jwc.cdnu.edu.cn/",
+        "start": "2016-09",
+        "end": "2020-06",
+        "grade": "3.5",
+        "summary": "2020年6月从成都师范学院毕业",
+        "curriculum": [
+          "计算机组成原理",
+          "python",
+          "计算机网络",
+          "C",
+          "C++",
+          "Java",
+          "HTTP",
+          "TCP/IP"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Kubernetes",
+        "level": "熟悉",
+        "skills": [
+          "安装部署",
+          "CRD",
+          "集群管理",
+          "监控告警"
+        ]
+      },
+      {
+        "name": "BeegFs存储集群",
+        "level": "熟悉",
+        "skills": [
+          "BeegFs存储集群原理",
+          "存储集群搭建",
+          "存储集群管理"
+        ]
+      },
+      {
+        "name": "Devops",
+        "level": "熟悉",
+        "skills": [
+          "Docker",
+          "Containerd",
+          "Harbor",
+          "Gitlab",
+          "Ansile",
+          "中间件"
+        ]
+      },
+      {
+        "name": "日志监控",
+        "level": "掌握",
+        "skills": [
+          "Prometheus",
+          "VictoraMetrics",
+          "loki",
+          "AlertManager"
+        ]
+      }
+    ],
+    "list": []
+  },
+  "writing": [
+    {
+      "title": "Blog",
+      "publisher": {
+        "name": "Congming Zhu 的 Blog",
+        "url": "https://cmzhu.cn"
+      },
+      "flavor": "blog",
+      "date": "2022",
+      "summary": "个人笔记",
+      "url": "https://wiki.cmzhu.cn"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "四级"
+    }
+  ]
+}
